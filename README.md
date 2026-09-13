@@ -219,25 +219,6 @@ Apply migrations:
 pipenv run flask db upgrade
 ```
 
-## Git Workflow
-
-Use meaningful commits and keep the main branch up to date:
-
-```bash
-git status
-git add .
-git commit -m "Build JWT productivity API"
-git push origin main
-```
-
-For feature work:
-
-```bash
-git checkout -b feature/productivity-api
-git add .
-git commit -m "Add protected notes CRUD"
-git push -u origin feature/productivity-api
-```
 
 ## Security and Authorization
 
