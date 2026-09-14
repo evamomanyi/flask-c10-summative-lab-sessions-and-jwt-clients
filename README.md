@@ -210,7 +210,7 @@ The test suite covers authentication, password hashing, protected routes, CRUD o
 The Flask API is deployed on Render.
 
 Production API:
-https://YOUR-SERVICE.onrender.com
+https://flask-c10-summative-lab-sessions-and-jwt-7jss.onrender.com/
 
 Build command:
 pip install -r requirements.txt
