@@ -216,6 +216,7 @@ Build command:
 pip install -r requirements.txt
 
 Pre-deploy command:
+(was optional, hence not included)
 flask db upgrade
 
 Start command:
