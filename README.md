@@ -205,19 +205,21 @@ pipenv run pytest -q
 
 The test suite covers authentication, password hashing, protected routes, CRUD operations, pagination, and cross-user authorization.
 
-## Database Migrations
+## Deployment
 
-Create a migration after model changes:
+The Flask API is deployed on Render.
 
-```bash
-pipenv run flask db migrate -m "describe the change"
-```
+Production API:
+https://YOUR-SERVICE.onrender.com
 
-Apply migrations:
+Build command:
+pip install -r requirements.txt
 
-```bash
-pipenv run flask db upgrade
-```
+Pre-deploy command:
+flask db upgrade
+
+Start command:
+gunicorn app:app
 
 
 ## Security and Authorization
